@@ -53,7 +53,6 @@ public class CustomerResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getAllCustomers() {
 		List<Customer> customers = customerService.findAll();
-		System.out.println("JPQL without type");
 		if(customers != null) {
 			return Response.ok(customers).build();
 		}
