@@ -1,5 +1,6 @@
 # http-concurrency-jaxrs
-Example code that demonostrates the use of HTTP Cache Control for handling concurrent requests using JAX-RS
+Example code that demonostrates the use of HTTP Cache Control for handling concurrent requests using JAX-RS as mentioned @
+http://relishcode.com/http-conditional-updates-with-jax-rs
 
 #1. Pre-requisites
 Maven
